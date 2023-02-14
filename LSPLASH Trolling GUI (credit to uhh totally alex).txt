@@ -1,12 +1,12 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("LSPLASH Trolling Gui", "Midnight")
+local Window = Library.CreateLib("LSPLASH Trolling Gui", "Serpent")
 local Tab = Window:NewTab("Doors Entities")
 local Tab1 = Window:NewTab("Custom Entities")
-local Tab2 = Window:NewTab("Crucifix")
+local Tab2 = Window:NewTab("Other")
 
 local Section = Tab:NewSection("Spawn Regular Entities")
 local Section1 = Tab1:NewSection("Spawn Custom Entities")
-local Section2 = Tab2:NewSection("Crucifix")
+local Section2 = Tab2:NewSection("random scripts")
 
 Section:NewButton("Timothy", "Spawn Timothy", function()
     print("Clicked")
@@ -313,7 +313,7 @@ local Configuration = {
 EntitySpawner:Spawn("Eyes", Configuration)
 end)
 
-Section:NewButton("Jack (Please Check Info)", "It doesn't spawn it in closets, it spawns WALKING jack", function()
+Section:NewButton("Jack", "bro forgor to be in his closet :skull:", function()
     local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
 -- Create entity
@@ -427,7 +427,7 @@ local entity = Creator.createEntity({
         WaitTime = 2,
     },
     CamShake = {
-        false, -- Enabled/Disabled
+        true, -- Enabled/Disabled
         {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
         100, -- Shake start distance (from Entity to you)
     },
@@ -499,7 +499,7 @@ Section:NewButton("Rush", "Spawn Rush", function()
 -- Create entity
 local entity = Creator.createEntity({
     CustomName = "Rush", -- Custom name of your entity
-    Model = "https://github.com/RegularVynixu/Utilities/blob/main/Doors%20Entity%20Spawner/Models/Rush.rbxm?raw=true", -- Can be GitHub file or rbxassetid
+    Model = "rbxassetid://11652586296", -- Can be GitHub file or rbxassetid
     Speed = 100, -- Percentage, 100 = default Rush speed
     DelayTime = 2, -- Time before starting cycles (seconds)
     HeightOffset = 0,
@@ -607,7 +607,7 @@ local entity = Creator.createEntity({
         WaitTime = 2,
     },
     CamShake = {
-        false, -- Enabled/Disabled
+        true, -- Enabled/Disabled
         {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
         100, -- Shake start distance (from Entity to you)
     },
@@ -697,7 +697,7 @@ local entity = Creator.createEntity({
         WaitTime = 2,
     },
     CamShake = {
-        false, -- Enabled/Disabled
+        true, -- Enabled/Disabled
         {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
         100, -- Shake start distance (from Entity to you)
     },
@@ -787,7 +787,7 @@ local entity = Creator.createEntity({
         WaitTime = 2,
     },
     CamShake = {
-        false, -- Enabled/Disabled
+        true, -- Enabled/Disabled
         {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
         100, -- Shake start distance (from Entity to you)
     },
@@ -865,7 +865,7 @@ local entity = Creator.createEntity({
     HeightOffset = 0,
     CanKill = false,
     KillRange = 50,
-    BreakLights = true,
+    BreakLights = false,
     BackwardsMovement = false,
     FlickerLights = {
         true, -- Enabled/Disabled
@@ -967,7 +967,7 @@ local entity = Creator.createEntity({
         WaitTime = 2,
     },
     CamShake = {
-        false, -- Enabled/Disabled
+        true, -- Enabled/Disabled
         {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
         100, -- Shake start distance (from Entity to you)
     },
@@ -1057,7 +1057,7 @@ local entity = Creator.createEntity({
         WaitTime = 2,
     },
     CamShake = {
-        false, -- Enabled/Disabled
+        true, -- Enabled/Disabled
         {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
         100, -- Shake start distance (from Entity to you)
     },
@@ -1147,7 +1147,7 @@ local entity = Creator.createEntity({
         WaitTime = 2,
     },
     CamShake = {
-        false, -- Enabled/Disabled
+        true, -- Enabled/Disabled
         {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
         100, -- Shake start distance (from Entity to you)
     },
@@ -1237,7 +1237,7 @@ local entity = Creator.createEntity({
         WaitTime = 2,
     },
     CamShake = {
-        false, -- Enabled/Disabled
+        true, -- Enabled/Disabled
         {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
         100, -- Shake start distance (from Entity to you)
     },
@@ -1327,7 +1327,7 @@ local entity = Creator.createEntity({
         WaitTime = 2,
     },
     CamShake = {
-        false, -- Enabled/Disabled
+        true, -- Enabled/Disabled
         {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
         100, -- Shake start distance (from Entity to you)
     },
@@ -1417,7 +1417,7 @@ local entity = Creator.createEntity({
         WaitTime = 2,
     },
     CamShake = {
-        false, -- Enabled/Disabled
+        true, -- Enabled/Disabled
         {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
         100, -- Shake start distance (from Entity to you)
     },
@@ -1507,7 +1507,7 @@ local entity = Creator.createEntity({
         WaitTime = 2,
     },
     CamShake = {
-        false, -- Enabled/Disabled
+        true, -- Enabled/Disabled
         {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
         100, -- Shake start distance (from Entity to you)
     },
@@ -1597,7 +1597,7 @@ local entity = Creator.createEntity({
         WaitTime = 2,
     },
     CamShake = {
-        false, -- Enabled/Disabled
+        true, -- Enabled/Disabled
         {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
         100, -- Shake start distance (from Entity to you)
     },
@@ -1687,7 +1687,7 @@ local entity = Creator.createEntity({
         WaitTime = 2,
     },
     CamShake = {
-        false, -- Enabled/Disabled
+        true, -- Enabled/Disabled
         {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
         100, -- Shake start distance (from Entity to you)
     },
@@ -1777,7 +1777,7 @@ local entity = Creator.createEntity({
         WaitTime = 2,
     },
     CamShake = {
-        false, -- Enabled/Disabled
+        true, -- Enabled/Disabled
         {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
         100, -- Shake start distance (from Entity to you)
     },
