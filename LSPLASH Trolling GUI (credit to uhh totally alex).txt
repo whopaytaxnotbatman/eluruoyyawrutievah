@@ -1845,6 +1845,6 @@ end)
 Section2:NewButton("Guiding Crucfix", "", function()
  loadstring(game:HttpGet("https://pastebin.com/raw/PxCeiLNm"))()
  end)
- Section2:NewSlider("Health", "WalkSpeed", 100, 1, function(s) -- 100 (MaxValue) | 0.1 (MinValue)
+ Section2:NewSlider("Health", "WalkSpeed", 100, 2, function(s) -- 100 (MaxValue) | 0.1 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.Health = s
 end)
