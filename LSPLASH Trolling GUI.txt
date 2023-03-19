@@ -2761,6 +2761,6 @@ Section2:NewButton("Tablet", "jiggle balls", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
 end)
 
-Section:NewKeybind("Toggle UI", "Press E", Enum.KeyCode.E, function()
+Section2:NewKeybind("Toggle UI", "Press E", Enum.KeyCode.E, function()
 	Library:ToggleUI()
 end)
