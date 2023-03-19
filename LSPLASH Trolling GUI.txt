@@ -2577,6 +2577,10 @@ _G.Range = 30
 loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
 end)
 
-Section2:NewButton("Tablet", "jiggle", function()
+Section2:NewButton("Tablet", "jiggle balls", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
+end)
+
+Section:NewKeybind("Toggle UI", "Press E", Enum.KeyCode.E, function()
+	Library:ToggleUI()
 end)
