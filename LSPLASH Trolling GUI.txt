@@ -499,7 +499,7 @@ Section:NewButton("Rush", "Spawn Rush", function()
 -- Create entity
 local entity = Creator.createEntity({
     CustomName = "Rush", -- Custom name of your entity
-    Model = "rbxassetid://11230982277", -- Can be GitHub file or rbxassetid
+    Model = "rbxassetid://11218170101", -- Can be GitHub file or rbxassetid
     Speed = 91, -- Percentage, 100 = default Rush speed
     DelayTime = 2, -- Time before starting cycles (seconds)
     HeightOffset = 0,
