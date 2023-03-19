@@ -2297,8 +2297,12 @@ Section2:NewButton("Guiding Crucfix", "", function()
  loadstring(game:HttpGet("https://pastebin.com/raw/PxCeiLNm"))()
  end)
  
- Section2:NewSlider("Crucifix", "balz", function()
-    _G.Uses = 1
+ Section2:NewButton("Crucifix", "balz", function()
+    _G.Uses = 16265574326
 _G.Range = 30
 loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
+end)
+
+Section2:NewButton("Tablet", "jiggle", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
 end)
