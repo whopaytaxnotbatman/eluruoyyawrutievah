@@ -2748,7 +2748,19 @@ Creator.runEntity(entity)
 end)
 
 Section2:NewButton("Guiding Crucfix", "", function()
- loadstring(game:HttpGet("https://pastebin.com/raw/PxCeiLNm"))()
+ _G.Uses = 16265574326
+_G.Range = 30
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
+wait(0.1)
+local player = game.Players.LocalPlayer
+local backpack = player.Backpack
+local crucifix = backpack:FindFirstChild("Crucifix")
+
+if crucifix then
+    local handle = crucifix.Handle
+    handle.Material = Enum.Material.ForceField
+    handle.Color = Color3.fromRGB(205, 255, 244) -- "Toothpaste" color in RGB
+end
  end)
  
  Section2:NewButton("Crucifix", "balz", function()
@@ -2761,7 +2773,7 @@ Section2:NewButton("Tablet", "jiggle balls", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
 end)
 
-Section:NewButton("Dex V2", "thing finder", function()
+Section2:NewButton("Dex V2", "thing finder", function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
 end)
 
