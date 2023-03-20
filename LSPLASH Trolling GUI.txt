@@ -2761,6 +2761,10 @@ Section2:NewButton("Tablet", "jiggle balls", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
 end)
 
+Section:NewButton("Dex V2", "thing finder", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+end)
+
 Section2:NewKeybind("Toggle UI", "Press E", Enum.KeyCode.E, function()
 	Library:ToggleUI()
 end)
