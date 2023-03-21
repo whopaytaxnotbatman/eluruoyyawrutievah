@@ -2761,7 +2761,7 @@ local crucifix = backpack:FindFirstChild("Crucifix")
 if crucifix then
     local handle = crucifix.Handle
     handle.Material = Enum.Material.ForceField
-    handle.Color = Color3.fromRGB(205, 255, 244) -- "Toothpaste" color in RGB
+    handle.Color = Color3.fromRGB(0, 255, 255) -- "Toothpaste" color in RGB
 end
  end)
  
@@ -2773,12 +2773,12 @@ _G.Fail = false
 loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
 end)
 
-Section2:NewButton("Fail Crucifix", "crucifix that fails", function()
-    _G.Uses = 1566467762525637334526237525252672
-_G.Range = 30
-_G.OnAnything = false
-_G.Fail = true
-loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
+Section2:NewButton("Make Crucifix Fail", "makes crucifix fail", function()
+    _G.Fail = true
+end)
+
+Section2:NewButton("Make Crucifix Work", "makes crucifix work", function()
+    _G.Fail = false
 end)
 
 Section2:NewButton("Tablet", "jiggle balls", function()
