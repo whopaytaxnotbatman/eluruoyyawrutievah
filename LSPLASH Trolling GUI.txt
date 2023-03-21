@@ -2750,6 +2750,8 @@ end)
 Section2:NewButton("Guiding Crucfix", "", function()
  _G.Uses = 16265574326
 _G.Range = 30
+_G.OnAnything = true
+_G.Fail = false
 loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
 wait(0.1)
 local player = game.Players.LocalPlayer
@@ -2766,6 +2768,16 @@ end
  Section2:NewButton("Crucifix", "balz", function()
     _G.Uses = 16265574326
 _G.Range = 30
+_G.OnAnything = false
+_G.Fail = false
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
+end)
+
+Section2:NewButton("Fail Crucifix", "crucifix that fails", function()
+    _G.Uses = 1566467762525637334526237525252672
+_G.Range = 30
+_G.OnAnything = false
+_G.Fail = true
 loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
 end)
 
