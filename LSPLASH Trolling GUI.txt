@@ -1494,7 +1494,7 @@ Section1:NewButton("Seeks Truck (april fools)", "Spawn Seeks Truck", function()
 local entity = Creator.createEntity({
     CustomName = "Car", -- Custom name of your entity
     Model = "rbxassetid://1305774666", -- Can be GitHub file or rbxassetid
-    Speed = 250, -- Percentage, 100 = default Rush speed
+    Speed = 90, -- Percentage, 100 = default Rush speed
     DelayTime = 2, -- Time before starting cycles (seconds)
     HeightOffset = 0,
     CanKill = false,
@@ -1584,7 +1584,7 @@ Section1:NewButton("Rusy Wusy (april fools)", "rusyb deh wussy comin", function(
 local entity = Creator.createEntity({
     CustomName = "i do not care", -- Custom name of your entity
     Model = "rbxassetid://12595102887", -- Can be GitHub file or rbxassetid
-    Speed = 250, -- Percentage, 100 = default Rush speed
+    Speed = 100, -- Percentage, 100 = default Rush speed
     DelayTime = 2, -- Time before starting cycles (seconds)
     HeightOffset = 0,
     CanKill = false,
@@ -1674,7 +1674,7 @@ Section1:NewButton("Axel In Harlem (april fools)", "who reads these", function()
 local entity = Creator.createEntity({
     CustomName = "Axel", -- Custom name of your entity
     Model = "rbxassetid://12847397478", -- Can be GitHub file or rbxassetid
-    Speed = 250, -- Percentage, 100 = default Rush speed
+    Speed = 100, -- Percentage, 100 = default Rush speed
     DelayTime = 2, -- Time before starting cycles (seconds)
     HeightOffset = 0,
     CanKill = false,
@@ -1764,7 +1764,7 @@ Section1:NewButton("something~", "stop reading these pls", function()
 local entity = Creator.createEntity({
     CustomName = "my eyes are bleeding pls help", -- Custom name of your entity
     Model = "rbxassetid://6508129793", -- Can be GitHub file or rbxassetid
-    Speed = 250, -- Percentage, 100 = default Rush speed
+    Speed = 70, -- Percentage, 100 = default Rush speed
     DelayTime = 2, -- Time before starting cycles (seconds)
     HeightOffset = 0,
     CanKill = false,
