@@ -1,8 +1,9 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window = Library.CreateLib("lolcat Trolling Gui", "Serpent")
+local Window = Library.CreateLib("LSPLASH Trolling Gui", "Serpent")
 local Tab = Window:NewTab("Doors Entities")
 local Tab1 = Window:NewTab("Custom Entities")
 local Tab2 = Window:NewTab("Other")
+local Tab3 = Window:NewTab("Update Logs")
 
 local Section = Tab:NewSection("Spawn Regular Entities")
 local Section1 = Tab1:NewSection("Spawn Custom Entities")
@@ -1757,7 +1758,7 @@ end
 Creator.runEntity(entity)
 end)
 
-Section1:NewButton("something~", "stop reading these pls", function()
+Section1:NewButton("something (april fools)", "stop reading these pls", function()
     local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
 
 -- Create entity
@@ -3143,4 +3144,8 @@ end)
 
 Section2:NewKeybind("Toggle UI", "Press E", Enum.KeyCode.E, function()
 	Library:ToggleUI()
+end)
+
+Section3:NewButton("placeholder", "just a placeholder", function()
+    load(c::Decfffstrofffffffffggy())
 end)
